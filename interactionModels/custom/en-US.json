@@ -1,0 +1,131 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "flickfate guru",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "pelicula_random",
+          "slots": [],
+          "samples": [
+            "Give me a random movie",
+            "Random movie",
+            "Recommend a movie",
+            "Give me a movie",
+            "Random film",
+            "Help me choose a movie",
+            "Suggest a movie",
+            "I need a movie to watch",
+            "Which movie do you recommend",
+            "Find a movie for me",
+            "Choose a movie for me",
+            "Give me a movie suggestion",
+            "Tell me a good movie to watch",
+            "What\u0027s a good movie",
+            "I need a movie recommendation",
+            "Propose a movie",
+            "What movie should I watch",
+            "Give me a movie title",
+            "Can you give me a random movie",
+            "Surprise me with a movie",
+            "Can you pick a movie for me",
+            "Can you suggest a movie for me",
+            "I\u0027m looking for a movie to watch",
+            "Find me a good movie",
+            "Pick a random movie for me",
+            "I need a movie idea",
+            "I want a movie recommendation",
+            "Show me a random movie",
+            "What\u0027s a movie I should see",
+            "I need help choosing a movie",
+            "I need a film suggestion",
+            "Pick out a movie for me"
+          ]
+        },
+        {
+          "name": "streaming",
+          "slots": [
+            {
+              "name": "movie",
+              "type": "AMAZON.Movie"
+            }
+          ],
+          "samples": [
+            "Which platform is {movie} available on",
+            "Where can I watch {movie}",
+            "Search {movie} on streaming platforms",
+            "Where can {movie} be watched",
+            "Where is {movie} available",
+            "Where can I find {movie} to watch",
+            "Find {movie} on streaming services",
+            "Check the availability of {movie} on platforms",
+            "Find where {movie} is streaming",
+            "Tell me where {movie} can be watched",
+            "What streaming services have {movie}",
+            "I want to watch {movie}  where is it available",
+            "Where can I find the movie {movie} online",
+            "Search the availability of {movie} on streaming",
+            "Where can I watch {movie} online",
+            "Find which platform {movie} can be watched on",
+            "What streaming service has {movie}",
+            "Where can {movie} be streamed",
+            "I want to watch {movie}  which platform is it on"
+          ]
+        },
+        {
+          "name": "quote",
+          "slots": [],
+          "samples": [
+            "Give me a movie quote",
+            "Say a line from a movie",
+            "Tell me a famous movie quote",
+            "I want to hear a quote from a movie",
+            "Give me a quote from a film",
+            "Share a popular movie line",
+            "Tell me a memorable movie quote",
+            "Random movie quote",
+            "I want to hear a film quote",
+            "Provide a famous line from a movie",
+            "Share a cinematic quote",
+            "Can you say a movie quote",
+            "I\u0027d like a movie quote",
+            "Tell me a quote from the movies",
+            "Give me a random line from a movie",
+            "I want a memorable line from a film",
+            "Share a line from a famous movie",
+            "Can you share a movie quote",
+            "Surprise me with a movie quote",
+            "Give me a famous film line",
+            "I need a movie quote",
+            "Recite a movie line",
+            "Share a movie dialogue",
+            "Give me a classic movie quote",
+            "I\u0027m looking for a movie quote",
+            "I want to hear a classic line from a film"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}
